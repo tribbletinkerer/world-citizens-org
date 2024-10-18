@@ -1,5 +1,5 @@
 function loadContent(page) {
-    fetch(`https://raw.githubusercontent.com/yourusername/world-citizens-org/main/content/${page}.md`)
+    fetch(`https://https://github.com/tribbletinkerer/world-citizens-org.git/main/content/${page}.md`)
         .then(response => response.text())
         .then(text => {
             document.getElementById('content').innerHTML = marked.parse(text);
